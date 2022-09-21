@@ -1,0 +1,63 @@
+.giftContent {
+    background-color: #fff;
+    position: relative;
+    margin-top: 60px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+  .refferFriend {
+    padding: 15px;    
+  }
+  .refferFriend h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .refferFriend .card {
+    border: none;   
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 80px;
+  }
+  .refferFriend .card .imageDiv{
+    background:#fff;
+    border-radius:50%;
+    display: flex;
+  }
+  .refferFriend .card img {
+    /* border-radius: 15px; */
+    /* background: #fff; */
+    padding:11px;
+  }
+  
+  .refferFriend .card p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .refferFriend .card button{
+    color: #322F27;
+    font-weight: 700;
+    background: #fff;
+    padding: 5px 10px;
+    border:none;
+    border-radius: 30px;
+  }
+  .refferFriend .banner {
+    margin-top: 50px;   
+    position: relative;
+  }
+  .refferFriend .banner  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .refferFriend .banner img{
+    width: 100%;
+  }
+ 

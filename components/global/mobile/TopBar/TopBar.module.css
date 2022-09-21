@@ -1,0 +1,32 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  border-bottom: 1px solid #bebebe;
+  height: 70px;
+}
+
+.rightContainer,
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.rightContainer img {
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.rightContainer svg {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}

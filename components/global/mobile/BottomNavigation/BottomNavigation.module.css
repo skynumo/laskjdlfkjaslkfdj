@@ -1,0 +1,44 @@
+.bottomNavigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 15px 20px;
+  border-top: 1px solid #c2f1f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  padding: 6px 15px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.bottomNavigation svg {
+  color: #77838f;
+  font-size: 25px;
+}
+
+.active {
+  background-color: #e3e7f8;
+}
+.active p {
+  color: #212e4f;
+}
+.active svg {
+  color: #212e4f;
+}
+
+.bottomNavigation p {
+  margin: 0;
+}

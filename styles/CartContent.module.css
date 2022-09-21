@@ -1,0 +1,79 @@
+.cartContent {
+    background-color: #fff;
+    position: relative;
+    margin-top: 60px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .cartBox {
+    padding: 140px  15px 92px 15px;   
+    border-bottom: 7px solid #F9F9F9; 
+  }
+  .cartBox h2 {
+    font-size: 16px; 
+    text-align: center;   
+  }
+  
+  .cartBox .cardContainer {
+    border: none;   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cartBox .cardContainer .imageDiv{
+    
+    background:#eee;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom:10px;
+  }
+  .cartBox .cardContainer img {
+    /* border-radius: 15px; */
+    /* background: #fff; */
+    padding:30px;
+  }
+  .cartBox .cardContainer .cartText{
+    text-align: center;
+  }
+
+  .cartBox .cartText h2 {
+    text-transform: uppercase;
+    font-size: 16px; 
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .cartBox .cartText p {
+    color: #8A94A6;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 17px;
+    line-height: 17px;
+  }
+
+  .cartBox .cardContainer button{
+    color: #fff;
+    font-weight: normal;
+    background: #3B62FF;
+    padding: 10px 50px;
+    border:none;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .cartBox .banner {
+    margin-top: 50px;   
+  }
+  .cartBox .banner  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .cartBox .banner img{
+    width: 100%;
+  }
+ 

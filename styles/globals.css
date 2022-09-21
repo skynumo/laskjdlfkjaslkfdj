@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: "Comfortaa", cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: "Comfortaa", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background: linear-gradient(180deg, #3b62ff, #485fbd);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+}
+
+.app-inner-content {
+  padding-top: 66px;
+  /* height: 100vh; */
+  padding-bottom: 68px;
+}

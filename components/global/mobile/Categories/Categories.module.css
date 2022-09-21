@@ -1,0 +1,30 @@
+.categoryContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 20px 20px 0 0;
+  gap: 10px;
+  position: sticky;
+  top: 70px;
+  z-index: 1048;
+  background-color: #fff;
+}
+.sticked {
+  border-radius: 0;
+  border-bottom: 1px solid #bebebe;
+}
+.categoryButton {
+  background: transparent;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  color: #bebebe;
+  font-weight: 700;
+}
+.active {
+  border: 1px solid #c2f1f8;
+  border-radius: 50px;
+  color: #212e4f;
+}
